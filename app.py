@@ -3,10 +3,11 @@ import google.generativeai as genai
 import time
 
 # إعداد الصفحة
-st.set_page_config(page_title="Gemini Chatbot 💬", page_icon="🤖")
+st.set_page_config(page_title="Chatbot 💬", page_icon="🤖")
 
 # إعداد مفتاح Gemini API
-GEN_API_KEY = "AIzaSyDw6MMR99ZxhvJhzEid412XPkl2ASUKy2o"
+import os
+GEN_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEN_API_KEY)
 
 # دالة للتفاعل مع Gemini
