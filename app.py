@@ -20,7 +20,7 @@ def chat_with_gemini(prompt):
         return f"⚠️ Error: {str(e)}"
 
 # عنوان الصفحة
-st.title("🤖 Gemini AI Chatbot")
+st.title("🤖 Chatbot")
 st.markdown("Ask any thing")
 
 # حفظ الرسائل داخل session
