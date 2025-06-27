@@ -20,7 +20,7 @@ def chat_with_gemini(prompt):
 
 # عنوان الصفحة
 st.title("🤖 Gemini AI Chatbot")
-st.markdown("Ask about agriculture, AI, or anything else!")
+st.markdown("Ask any thing")
 
 # حفظ الرسائل داخل session
 if "messages" not in st.session_state:
