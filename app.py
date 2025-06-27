@@ -7,7 +7,7 @@ st.set_page_config(page_title="Chatbot 💬", page_icon="🤖")
 
 # إعداد مفتاح Gemini API
 import os
-GEN_API_KEY = os.getenv("GEMINI_API_KEY")
+GEN_API_KEY = os.getenv("AIzaSyDw6MMR99ZxhvJhzEid412XPkl2ASUKy2o")
 genai.configure(api_key=GEN_API_KEY)
 
 # دالة للتفاعل مع Gemini
